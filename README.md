@@ -1,4 +1,4 @@
-IN204 RAYTRACING PROJECT.
+IN204 RAYTRACING PROJECT. Juan M. CARVAJAL, Juan D. RAMIREZ
 
 This program parses a text description of a scene and generates a corresponding scene for a raytracing program. The program is compiled using g++ with the following options:
 
