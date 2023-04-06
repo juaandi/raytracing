@@ -101,6 +101,7 @@ The program also requires ImageMagick and LFTK libraries to be installed.
     We are refering the background as the color of the sky.
 
     3.1. Materials
+		    
         * blurry (doesn't reflect the rays)
         * mercury
         * zinc
@@ -115,6 +116,7 @@ The program also requires ImageMagick and LFTK libraries to be installed.
         * chromium
 
     3.2. Textures
+		    
         * white
         * black
         * red
@@ -162,21 +164,22 @@ The program also requires ImageMagick and LFTK libraries to be installed.
         * lighthouse (high intensity)
 
     3.3. Backgrounds
-        * galactic_background
-        * cityscape_background
-        * tropical_background
-        * underwater_background
-        * castle_background
-        * rainforest_background
-        * desert_background
-        * futuristic_background
-        * winter_background
-        * gothic_background
-        * magical_background
-        * haunted_background
-        * sunrise_background
-        * enchanted_background
-        * jungle_background
+		    
+        * galactic
+        * cityscape
+        * tropical
+        * underwater
+        * castle
+        * rainforest
+        * desert
+        * futuristic
+        * winter
+        * gothic
+        * magical
+        * haunted
+        * sunrise
+        * enchanted
+        * jungle
 
 4. Engines
     There are 3 engines which define the bounce depth of the rays and the samples per pixel
