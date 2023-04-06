@@ -31,7 +31,6 @@ Aqui se realiza todo el proceso de renderizado, colorear la imagen en funcion de
 
 void render_section(Image<int>& img, int start, int end, const background& landscape,scene_base_object& world, const camara& cam, engine& eng){
     
-    #pragma omp parallel for collapse(2) schedule(dynamic) num_threads(12) 
     for (int j = 0; j<img.get_width(); j++)
     { 
         for (int i = start; i<=end-1; i++)
