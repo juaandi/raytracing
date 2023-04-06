@@ -1,0 +1,74 @@
+<scene>
+	<camara>
+		<look_from> (15, 0, 16) <\look_from>
+		<look_at> (0, 0, 0)<\look_at>
+		<focus_dis> 21 <\focus_dis>
+		<hole> 0.2 <\hole>
+		<vfov> 50.0 <\vfov>
+		<aspect_ratio> 3/2 <\aspect_ratio>
+		<height> 400 <\height>
+		<background> "underwater" <\background>
+	<\camara>
+
+	<object type = "sphere">	
+		<material> "chromium" <\material>
+		<radius> 300 <\radius>
+		<center> (0.0, -301.0, 0.0) <\center>
+		<texture> "navy" <\texture>
+	<\object>
+
+	<object type = "sphere">	
+		<radius> 1.0 <\radius>
+		<center> (0,0,3) <\center>
+		<material> "fuzzy" <\material>
+		<texture> "chess" <\texture>
+	<\object>
+
+	<object type = "sphere">	
+		<radius> 2.0 <\radius>
+		<center> (3,0,6) <\center>
+		<material> "copper" <\material>
+		<texture> "bright_green" <\texture>
+	<\object>
+
+	<object type = "cube">
+		<side_length> 1.5 <\side_length>
+		<center> (-2,0,1) <\center>
+		<material> "mercury" <\material>
+		<texture> "cucuball" <\texture>
+	<\object>
+
+	<object type = "cube">
+		<side_length> 1 <\side_length>
+		<center> (0,0,0) <\center>
+		<material> "fuzzy" <\material>
+		<texture> "noise" <\texture>
+	<\object>
+
+
+	<object type = "pyramid">
+		<side_length> 2.0 <\side_length>
+		<height> 1.5 <\height>
+		<center> (0,0,0) <\center>
+		<material> blurry <\material>
+		<color> brass <\color>
+	<\object>
+
+	<object type = "plane">
+	<bottom_left_corner> (-1,2,1)<\bottom_left_corner>
+	<bottom_right_corner>(0,3,0)<\bottom_right_corner>
+	<upper_left_corner>(1,4,-1) <\upper_left_corner>
+	<upper_right_corner>(2,5,-2)<\upper_right_corner>
+	<material> "fuzzy" <\material>
+	<texture> "noise" <\texture>
+	<\object>
+
+	<object type = "cube">
+		<side_length> 0.73 <\side_length>
+		<center> (2,0,4) <\center>
+		<material> "gold" <\material>
+		<texture> "red" <\texture>
+	<\object>
+
+	
+<\scene>
